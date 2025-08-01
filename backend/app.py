@@ -862,8 +862,17 @@ def chat():
         doc_text = "\n".join([doc.page_content for doc in relevant_docs]) if relevant_docs else ""
 
         # Step 3: Build prompt
+        # Step 3: Build prompt
         prompt = f"""
         You are a compassionate mental health assistant.
+
+        Your **only** role is to provide support and information related to mental health, emotional well-being, or psychological concerns.
+
+        If the user's message is **even partially** outside this domain — for example, asking about general knowledge, trivia, food, technology, advice not related to emotions or mental health — you must **not respond to the query at all**. Instead, you must say:
+
+        "I'm sorry, I cannot help with that. It is outside my domain as a mental health assistant."
+
+        Do **not** attempt to answer or interpret any non-mental health topic.
 
         User's recent emotional history:
         {user_context}
@@ -874,7 +883,7 @@ def chat():
         Now respond to their message:
         "{message}"
         """
-        print("Calling Gemini API...")
+
         gemini_response = gemini_chat(prompt)
 
         if not gemini_response:
