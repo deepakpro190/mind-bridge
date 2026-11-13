@@ -1,4 +1,4 @@
-# MindBridge - Mood & Mental Health Tracker
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/19fffd6c-1082-4551-905c-795a532d51e5" /># MindBridge - Mood & Mental Health Tracker
 
 MindBridge is a comprehensive mood and mental health tracking application built with React and Flask. It provides daily check-ins, AI-powered mood quizzes, grounding exercises, and conversational support to help users manage their mental wellness.
 
@@ -269,3 +269,11 @@ This project is for educational and demonstration purposes.
 ## Support
 
 For issues or questions about setup and usage, please check the troubleshooting section or create an issue in the repository. 
+
+
+<img width="1917" height="977" alt="image" src="https://github.com/user-attachments/assets/d5091975-72af-4840-86d5-abeeca4b62fe" />
+<img width="1919" height="970" alt="image" src="https://github.com/user-attachments/assets/33784c08-712c-4e2e-992e-e667b444fdb1" />
+<img width="1911" height="967" alt="image" src="https://github.com/user-attachments/assets/4ca9be8f-72d5-4ae5-983c-aff17c3785ac" />
+<img width="1055" height="871" alt="image" src="https://github.com/user-attachments/assets/b9f75967-af72-49c8-9d10-9e060ee15ab7" />
+<img width="734" height="662" alt="image" src="https://github.com/user-attachments/assets/de097e6d-c66e-4de2-81b3-16669c860f6e" />
+
